@@ -60,7 +60,7 @@ function exibirFilme(){
 		mostraDetalhes += '<div class="col-md-6"><ul class="list-group"># '+filmeDetalhado.data.id+'';
 		mostraDetalhes += '<li class="list-group-item"><img class="img-thumbnail" src="https://image.tmdb.org/t/p/w300/'+filmeDetalhado.data.poster_path+'"></li>';
 		mostraDetalhes += '<li class="list-group-item">Título: '+filmeDetalhado.data.original_title+'</li>';
-		mostraDetalhes += '<li class="list-group-item">Gênero: '+ filmeDetalhado.data.genres[1].name+'</li>';
+		mostraDetalhes += '<li class="list-group-item">Gênero: '+ filmeDetalhado.data.genres[0].name+'</li>';
 		mostraDetalhes += '</div>';
 		mostraDetalhes += '<div class="col-md-6">';
 		mostraDetalhes += '<li class="list-group-item">Sinopse: '+filmeDetalhado.data.overview+'</li>';
