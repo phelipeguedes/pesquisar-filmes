@@ -1,0 +1,41 @@
+.img-thumbnail{
+	//height: 318px;
+	//width: 220px;
+}
+
+h3{
+	padding-top: 2%;
+}
+
+li.nav-item{
+	padding-top: 5%;
+}
+
+.active a{
+	background-color: #5CB85C;
+}
+
+div.row{
+	margin: 5% 5%;
+}
+
+.jumbotron{
+	background: url(../img/filmes3.png) center center;
+	margin-bottom: 0px;
+	height: 350px;
+	color: white;
+	text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+body{
+	background-color: #F5F5F5;
+}
+
+footer{
+	bottom: 0;
+	padding-top: 60px;
+}
+
+footer p{
+	text-align: center;
+}
